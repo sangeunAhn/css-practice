@@ -1,0 +1,34 @@
+{
+  "name": "cssmaster",
+  "version": "1.0.0",
+  "description": "# CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangeunAhn/css-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sangeunAhn/css-practice/issues"
+  },
+  "homepage": "https://github.com/sangeunAhn/css-practice#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-grid-kiss": "^2.3.0",
+    "postcss-preset-env": "^6.7.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      },
+      "postcss-color-mod-function": {}
+    }
+  },
+  "devDependencies": {
+    "postcss-color-mod-function": "^3.0.3"
+  }
+}

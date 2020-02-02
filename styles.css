@@ -1,0 +1,64 @@
+/* 
+
+Matches
+
+li:matches(:nth-child(even), .target){
+  background-color: blue;
+}
+ */
+
+/* li:not(.target){
+  background-color: blue;
+} */
+
+/* 
+:root {
+  --awesomeColor: #2980b9;
+}
+
+li:first-child a {
+  color: var(--awesomeColor);
+}
+
+@custom-selector :--headers h1,h2,h3,h4,h5,h6;
+
+:--headers{
+  color:#8e44ad;
+} */
+
+/* 
+@custom-media --ipad-size (max-width: 850px);
+
+@media(--ipad-size){
+  body{
+    background-color: red;
+  }
+} */
+
+/* 
+h1 {
+  color: #f1c40f;
+}
+
+h1:hover {
+  color:color-mod(#f1c40f blackness(20%))
+} */
+
+main {
+  background-color: blue;
+
+  & section {
+    background-color: red;
+    width: 500px;
+    & li {
+      background-color: yellow;
+      width: 400px;
+      & a {
+        color: black;
+        &:hover{
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}

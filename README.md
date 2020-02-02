@@ -9,31 +9,31 @@
 - [X] Flex Wrap
 - [X] Align Self
 ### CSS Grid
-- [ ] CSS Grid Basics ( Row, columns and gaps)
-- [ ] Auto columns, auto rows
-- [ ] Template Areas
-- [ ] fr unit, repeat
-- [ ] minmax, max-content, min-content
-- [ ] auto-fill, auto-fit
-- [ ] Justify Content, Align Content and Place Content
-- [ ] Justify Items, Align Items and Place Items
-- [ ] Grid Column, Column Start and End
-- [ ] Line Naming
-- [ ] Grid Row, Row Start and End
-- [ ] Grid Area
-- [ ] Justify, Align, Place Self
+- [X] CSS Grid Basics ( Row, columns and gaps)
+- [X] Auto columns, auto rows
+- [X] Template Areas
+- [X] fr unit, repeat
+- [X] minmax, max-content, min-content
+- [X] auto-fill, auto-fit
+- [X] Justify Content, Align Content and Place Content
+- [X] Justify Items, Align Items and Place Items
+- [X] Grid Column, Column Start and End
+- [X] Line Naming
+- [X] Grid Row, Row Start and End
+- [X] Grid Area
+- [X] Justify, Align, Place Self
 ### Using CSS4
-- [ ] Installing Parcel
-- [ ] Configuring PostCSS
-- [ ] Testing
+- [X] Installing Parcel
+- [X] Configuring PostCSS
+- [X] Testing
 ### CSS4 Awesomeness
-- [ ] :matches , :not
-- [ ] CSS Variables
-- [ ] @custom-selector
-- [ ] @custom-media
-- [ ] Media Query Ranges
-- [ ] color-mod, gray(), system-ui
-- [ ] Nesting Rules
+- [X] :matches , :not
+- [X] CSS Variables
+- [X] @custom-selector
+- [X] @custom-media
+- [X] Media Query Ranges
+- [X] color-mod, gray(), system-ui
+- [X] Nesting Rules
 ### Conclusions
 - [ ] CSS Grid Kiss
 - [ ] Practice Flexbox
